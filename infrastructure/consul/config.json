@@ -1,0 +1,15 @@
+{
+  "datacenter": "ecommerce-dc",
+  "data_dir": "/consul/data",
+  "log_level": "INFO",
+  "server": true,
+  "ui": true,
+  "bootstrap_expect": 1,
+  "client_addr": "0.0.0.0",
+  "bind_addr": "0.0.0.0",
+  "ports": {
+    "http": 8500,
+    "dns": 8600
+  }
+}
+
